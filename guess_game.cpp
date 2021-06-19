@@ -53,7 +53,7 @@ int main () {
         if (correct_number) {
             cout << "Parabéns, você acertou o número secreto!" << endl;
             index = false;
-            break;
+            attempts = attempts_number;
         }
         else if (greater_number) {
             cout << "Seu chute foi maior que o número secreto!" << endl;
